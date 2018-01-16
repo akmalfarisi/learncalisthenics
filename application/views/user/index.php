@@ -4,7 +4,7 @@
 			<div class="col-md-6 col-md-offset-3 wow animated fadeInUp" style="padding-top: 64px;">
 				<center><h1><font class="fg-blue">User</font> Dashboard</h1>
 				<hr style="border: 2px solid; border-color: rgb(1, 126, 187)">
-				<p> Halo, Denny Pradipta! Lakukan exercise yang telah kami sediakan.</p>
+				<p> Halo, <font class="fg-blue"><?php echo $this->session->userdata('nama'); ?></font>! Lakukan exercise yang telah kami sediakan.</p>
 				<p> 1-2 set untuk level awal, 3-5 set untuk level menengah, dan > 5 set untuk level tinggi. </p>
 				<p> Tambah jumlah repetisi apabila 10x sudah dirasa tidak cukup. </p>
 				<p class="fg-blue"><b><u>Ingat, semua orang bisa karena biasa. Jadi, jangan berhenti berusaha!</u></b></p>
