@@ -1,0 +1,87 @@
+.bg-darkgray {
+	background-color: #222;
+}
+
+.bg-brokenwhite {
+	background-color: #ddd;
+}
+
+.bg-blue {
+	background-color: rgb(1, 126, 187) !important;
+}
+
+.fg-white {
+	color: #fff;
+}
+
+.fg-blue {
+	color: rgb(1, 126, 187);
+}
+
+.full-height {
+	height: 100vh;
+	overflow: hidden;
+}
+
+.half-height {
+	height: 50vh;
+}
+
+.index_cover {
+	background-image: url('../images/index_cover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.index_cover h2 {
+	color: #fff;
+	z-index: 2;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.index_cover h3 {
+	color: #fff;
+	z-index: 2;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+	background-color: #eee;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	margin: 0 8px 0 8px;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay:after {
+  position: absolute;
+  content:"";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 1;
+}
+
+.center_align {
+	text-align: center;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
